@@ -8,6 +8,7 @@ import {setTextFilter, sortByAmount, sortByDate, setStartDate, setEndDate} from 
 import getVisibleExpenses from "./selectors/expenses";
 import "normalize.css/normalize.css";
 import "./styles/styles.scss";
+import "./firebase/firebase";
 
 const store = configureStore();
 // store.subscribe(() => {
